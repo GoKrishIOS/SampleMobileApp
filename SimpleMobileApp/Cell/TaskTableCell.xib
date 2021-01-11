@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TaskTableCell" rowHeight="622" id="KGk-i7-Jjw" customClass="TaskTableCell" customModule="SimpleMobileApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="505" height="622"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="505" height="622"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgB-ER-wtE">
+                        <rect key="frame" x="30" y="317.5" width="38" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZrD-Gc-7AK">
+                        <rect key="frame" x="242.5" y="311" width="252.5" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="G09-U3-Ul6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iJ-MD-WjJ">
+                        <rect key="frame" x="30" y="268.5" width="75" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2SM-j0-l3Z">
+                        <rect key="frame" x="242.5" y="262" width="252.5" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="hZT-Ov-5Te"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter task name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMu-fh-hb4">
+                        <rect key="frame" x="242.5" y="20" width="252.5" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="sld-ly-i1i"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fki-1L-10o">
+                        <rect key="frame" x="30" y="26.5" width="84" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGB-e1-qVR">
+                        <rect key="frame" x="30" y="147.5" width="126.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KZo-Ru-iWk">
+                        <rect key="frame" x="242.5" y="69" width="252.5" height="178"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="178" id="bSe-Z8-tki"/>
+                        </constraints>
+                        <color key="textColor" systemColor="labelColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="1DE-UR-LMg">
+                        <rect key="frame" x="242.5" y="360" width="252.5" height="162"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="162" id="bI6-Lq-pYS"/>
+                        </constraints>
+                    </datePicker>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT6-RR-8Z7">
+                        <rect key="frame" x="211.5" y="552" width="82" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="1YR-c3-PXR"/>
+                            <constraint firstAttribute="width" constant="82" id="xMW-1m-suA"/>
+                        </constraints>
+                        <state key="normal" title="Save"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fki-1L-10o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="2g0-Pn-13J"/>
+                    <constraint firstItem="KZo-Ru-iWk" firstAttribute="leading" secondItem="UMu-fh-hb4" secondAttribute="leading" id="43r-5n-QxU"/>
+                    <constraint firstItem="KZo-Ru-iWk" firstAttribute="trailing" secondItem="UMu-fh-hb4" secondAttribute="trailing" id="4mb-Cx-O4L"/>
+                    <constraint firstItem="8iJ-MD-WjJ" firstAttribute="centerY" secondItem="2SM-j0-l3Z" secondAttribute="centerY" id="DCW-9P-UKC"/>
+                    <constraint firstItem="hT6-RR-8Z7" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Goi-JM-N29"/>
+                    <constraint firstItem="KZo-Ru-iWk" firstAttribute="top" secondItem="UMu-fh-hb4" secondAttribute="bottom" constant="15" id="Ha0-6z-Y6T"/>
+                    <constraint firstAttribute="trailing" secondItem="UMu-fh-hb4" secondAttribute="trailing" constant="10" id="IjP-40-HOM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="hT6-RR-8Z7" secondAttribute="bottom" id="MkY-0O-fhd"/>
+                    <constraint firstItem="UMu-fh-hb4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="OeB-5W-BTl"/>
+                    <constraint firstItem="8iJ-MD-WjJ" firstAttribute="leading" secondItem="oGB-e1-qVR" secondAttribute="leading" id="U3Q-5E-eMg"/>
+                    <constraint firstItem="2SM-j0-l3Z" firstAttribute="trailing" secondItem="KZo-Ru-iWk" secondAttribute="trailing" id="XcW-bt-qGx"/>
+                    <constraint firstItem="fgB-ER-wtE" firstAttribute="leading" secondItem="oGB-e1-qVR" secondAttribute="leading" id="bjW-G0-D5d"/>
+                    <constraint firstItem="UMu-fh-hb4" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="fuM-rt-P1y"/>
+                    <constraint firstItem="1DE-UR-LMg" firstAttribute="leading" secondItem="ZrD-Gc-7AK" secondAttribute="leading" id="gNC-cJ-SD4"/>
+                    <constraint firstItem="2SM-j0-l3Z" firstAttribute="top" secondItem="KZo-Ru-iWk" secondAttribute="bottom" constant="15" id="gjs-TD-dcK"/>
+                    <constraint firstItem="2SM-j0-l3Z" firstAttribute="leading" secondItem="KZo-Ru-iWk" secondAttribute="leading" id="k30-Vc-QBl"/>
+                    <constraint firstItem="1DE-UR-LMg" firstAttribute="trailing" secondItem="ZrD-Gc-7AK" secondAttribute="trailing" id="kOS-8C-Glu"/>
+                    <constraint firstItem="oGB-e1-qVR" firstAttribute="centerY" secondItem="KZo-Ru-iWk" secondAttribute="centerY" id="kxP-s8-gNr"/>
+                    <constraint firstItem="1DE-UR-LMg" firstAttribute="top" secondItem="ZrD-Gc-7AK" secondAttribute="bottom" constant="15" id="lEy-rX-pJb"/>
+                    <constraint firstItem="oGB-e1-qVR" firstAttribute="leading" secondItem="Fki-1L-10o" secondAttribute="leading" id="mBe-o0-f6r"/>
+                    <constraint firstItem="ZrD-Gc-7AK" firstAttribute="top" secondItem="2SM-j0-l3Z" secondAttribute="bottom" constant="15" id="nF8-O2-nZL"/>
+                    <constraint firstItem="Fki-1L-10o" firstAttribute="centerY" secondItem="UMu-fh-hb4" secondAttribute="centerY" id="qAh-Rc-A0p"/>
+                    <constraint firstItem="hT6-RR-8Z7" firstAttribute="top" secondItem="1DE-UR-LMg" secondAttribute="bottom" constant="30" id="uNo-Cm-EDN"/>
+                    <constraint firstItem="fgB-ER-wtE" firstAttribute="centerY" secondItem="ZrD-Gc-7AK" secondAttribute="centerY" id="ulI-WT-aqf"/>
+                    <constraint firstItem="ZrD-Gc-7AK" firstAttribute="trailing" secondItem="KZo-Ru-iWk" secondAttribute="trailing" id="uqK-lx-ib1"/>
+                    <constraint firstItem="ZrD-Gc-7AK" firstAttribute="leading" secondItem="KZo-Ru-iWk" secondAttribute="leading" id="vDY-X9-HIJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="date_feild" destination="2SM-j0-l3Z" id="9Br-br-h4n"/>
+                <outlet property="saveBtn" destination="hT6-RR-8Z7" id="DhE-ge-RmU"/>
+                <outlet property="task_desc" destination="KZo-Ru-iWk" id="mvX-If-gEH"/>
+                <outlet property="task_name" destination="UMu-fh-hb4" id="3vL-MX-F4c"/>
+                <outlet property="timePicker" destination="1DE-UR-LMg" id="Tj5-ES-hK8"/>
+                <outlet property="time_feild" destination="ZrD-Gc-7AK" id="CJl-cB-wdu"/>
+            </connections>
+            <point key="canvasLocation" x="212.31884057971016" y="287.27678571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

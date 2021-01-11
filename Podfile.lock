@@ -1,0 +1,20 @@
+PODS:
+  - FSCalendar (2.8.2)
+  - TTGSnackbar (1.10.3)
+
+DEPENDENCIES:
+  - FSCalendar
+  - TTGSnackbar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FSCalendar
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  TTGSnackbar: 97c033600de8a9c8f4a093f25a08543a03946bcc
+
+PODFILE CHECKSUM: 133fc627dc016ac937a2015834b007303b1173d5
+
+COCOAPODS: 1.8.4
